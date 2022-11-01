@@ -34,6 +34,9 @@ h6 {
 
 html,
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   line-height: 1;
   font-size: 16px;
   background-color: #333B41;
@@ -74,13 +77,16 @@ sub {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1600px;
+  min-width: 1600px;
   position: relative;
   flex-direction: column;
   display: 5px solid red;
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 1600px;
   box-sizing: border-box;
@@ -303,6 +309,9 @@ background-clip: text;
 
 .page-chooseanimal {
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .chooseanimal-flower_left {
