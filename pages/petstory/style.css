@@ -320,7 +320,7 @@ background-clip: text;
   justify-content: flex-end;
   align-items:flex-end;
   z-index: 2;
-  bottom: -100px;
+  bottom: 0px;
   left: 0px;
 }
 
@@ -330,7 +330,7 @@ background-clip: text;
   justify-content: flex-end;
   align-items:flex-end;
   z-index: 2;
-  bottom: -100px;
+  bottom: 0px;
   right: 0px;
 }
 
@@ -419,11 +419,12 @@ background-clip: text;
   line-height: 120%;
 }
 
-.chooseanima-button {
+.chooseanimal-button {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 80px 0px 100px 0px;
+  border: 1px solid red;
 }
 
 .page-feedfriend {
@@ -611,10 +612,10 @@ input[type=range] {
 footer {
   background-color: #111115;
   color: #FFFFFF;
-
 }
 
 .footer-mainblock {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
